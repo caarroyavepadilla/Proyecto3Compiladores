@@ -1,0 +1,52 @@
+body{
+    background: black;
+    color: white;
+}
+
+header{
+    background: mediumorchid;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.block .box{
+    background: mediumorchid;
+    flex: 1 1 150px;
+    margin: .3rem;
+}
+
+.input_code{
+    width: 90%;
+    display: block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    min-width: 89%;
+}
+
+.send{
+    display: block;
+    margin-left: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.titulo1{
+    display: grid;
+    place-items: center;
+}
+
+.errors{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: grid;
+    place-items: left;
+    color: black;
+}
